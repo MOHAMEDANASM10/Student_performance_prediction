@@ -2,6 +2,7 @@
 Predicts student pass/fail outcomes using logistic regression based on study hours and attendance.
 
 
+
 # 📊 Student Performance Prediction using Logistic Regression
 
 This project builds a simple machine learning model that predicts whether a student will pass or fail based on two features: **Hours Studied** and **Attendance Percentage**.
@@ -41,15 +42,36 @@ A manually created dataset of 20 records with the following columns:
 3. **Split** the dataset into training and testing sets.
 4. **Trained** a Logistic Regression model.
 5. **Evaluated** the model using accuracy and classification metrics.
-6. **Predicted** new student outcomes based on custom input.
+6. **Predicted** new student outcomes based on **user input**.
 
 ---
 
-## 📈 Sample Output
+## 💻 User Input Feature
 
-```bash
-Accuracy: 0.83
-Predictions for new data (1 = Pass, 0 = Fail): [0 1 0 1 1]
+At the end of the notebook, you will be prompted to enter:
+
+- Hours studied
+- Attendance percentage
+
+The model will predict and print:
+
+```text
+✅ The student is likely to PASS.
+❌ The student is likely to FAIL.
+
+This makes the project interactive and user-friendly!
+
+
+---
+
+📈 Sample Output
+
+Enter hours studied: 4
+Enter attendance percentage: 80
+
+Prediction result:
+✅ The student is likely to PASS.
+
 
 ---
 
@@ -58,18 +80,24 @@ Predictions for new data (1 = Pass, 0 = Fail): [0 1 0 1 1]
 1. Clone or download this repository.
 
 
-2. Open Student_Performance_Prediction_Expanded.ipynb in Jupyter Notebook or Google Colab.
+2. Open Student_Performance_Prediction_UserInput.ipynb in Jupyter Notebook or Google Colab.
 
 
-3. Run all cells to train the model and make predictions.
+3. Run all cells to train the model.
+
+
+4. Enter your input when prompted.
+
+
 
 
 ---
 
 📌 Project Status
 
-✅ Completed basic implementation with manual dataset.
+✅ Completed basic implementation with user interaction.
 🚀 Can be extended with real-world data or more features like assignments, quiz marks, etc.
+
 
 ---
 
@@ -78,6 +106,7 @@ Predictions for new data (1 = Pass, 0 = Fail): [0 1 0 1 1]
 M. Mohamed Anas
 m.mohamedanas10.06@gmail.com
 Intern at NSP NEXUS – Week 2 Project
+
 
 ---
 
